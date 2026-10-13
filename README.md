@@ -3,7 +3,23 @@
 A clean, plug-and-play guide to add feature tutorials and coach marks to any Flutter screen, static widget, list item, or dialog.
 
 ---
-## tutorial_coach_mark: ^1.3.4 higher
+## 1. Add dependencies
+
+In `pubspec.yaml`, make sure the packages used by your implementation
+are included:
+
+``` yaml
+dependencies:
+  tutorial_coach_mark: ^1.3.4
+  shared_preferences: any
+```
+
+Prefer pinning versions that are compatible with your project's current
+dependency lockfile instead of blindly changing versions. Run:
+
+``` bash
+flutter pub get
+```
 
 ## 📂 Architecture Overview (`lib/core/tutorial/`)
 The tutorial system consists of these core files:
