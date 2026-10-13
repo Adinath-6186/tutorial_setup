@@ -22,6 +22,29 @@ flutter pub get
 ```
 
 ## 📂 Architecture Overview (`lib/core/tutorial/`)
+
+Keep reusable tutorial infrastructure in `core/tutorial` and
+feature-specific tutorial definitions beside their feature.
+
+``` text
+lib/
+├── core/
+│   └── tutorial/
+│       ├── tutorial_step.dart
+│       ├── tutorial_storage.dart
+│       ├── tutorial_manager.dart
+│       ├── tutorial_coach_mark_adapter.dart
+│       └── tutorial_target_helper.dart
+└── features/
+    ├── patients/
+    │   └── presentation/
+    │       └── tutorials/
+    │           └── patient_details_tutorial.dart
+    └── appointments/
+        └── tutorials/
+            └── appointment_tutorial.dart
+```
+
 The tutorial system consists of these core files:
 - `tutorial_manager.dart`: Central manager to show, sequence, or reset tutorials.
 - `tutorial_step.dart`: Model defining each step (`TutorialStep`).
