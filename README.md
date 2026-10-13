@@ -3,6 +3,7 @@
 A clean, plug-and-play guide to add feature tutorials and coach marks to any Flutter screen, static widget, list item, or dialog.
 
 ---
+## tutorial_coach_mark: ^1.3.4 higher
 
 ## 📂 Architecture Overview (`lib/core/tutorial/`)
 The tutorial system consists of these core files:
