@@ -2,6 +2,13 @@
 
 A clean, plug-and-play guide to add feature tutorials and coach marks to any Flutter screen, static widget, list item, or dialog.
 
+
+
+## Tutorial Demo
+
+![Tutorial Coach Mark Demo](https://external-images.pub.dev/UciT8JagGTJEz28o5n0PpTTTna%2BnP6HS4q5O6M9gSfM%3D/1791849600000/https%3A%2F%2Fraw.githubusercontent.com%2FRafaelBarbosatec%2Ftutorial_coach_mark%2Fmaster%2Fimg%2FexampleTutorialCoachMark.gif)
+
+
 ---
 ## 1. Add dependencies
 
